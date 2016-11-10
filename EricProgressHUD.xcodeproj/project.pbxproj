@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07C0A2321DD4672A00EFE7AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C0A2311DD4672A00EFE7AA /* main.m */; };
+		07C0A2351DD4672A00EFE7AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C0A2341DD4672A00EFE7AA /* AppDelegate.m */; };
+		07C0A2381DD4672A00EFE7AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C0A2371DD4672A00EFE7AA /* ViewController.m */; };
+		07C0A23B1DD4672A00EFE7AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07C0A2391DD4672A00EFE7AA /* Main.storyboard */; };
+		07C0A23D1DD4672A00EFE7AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07C0A23C1DD4672A00EFE7AA /* Assets.xcassets */; };
+		07C0A2401DD4672A00EFE7AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07C0A23E1DD4672A00EFE7AA /* LaunchScreen.storyboard */; };
+		07C0A24B1DD4672A00EFE7AA /* EricProgressHUDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C0A24A1DD4672A00EFE7AA /* EricProgressHUDTests.m */; };
+		07C0A2561DD4672A00EFE7AA /* EricProgressHUDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C0A2551DD4672A00EFE7AA /* EricProgressHUDUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07C0A2471DD4672A00EFE7AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07C0A2251DD4672A00EFE7AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07C0A22C1DD4672A00EFE7AA;
+			remoteInfo = EricProgressHUD;
+		};
+		07C0A2521DD4672A00EFE7AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07C0A2251DD4672A00EFE7AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07C0A22C1DD4672A00EFE7AA;
+			remoteInfo = EricProgressHUD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07C0A22D1DD4672A00EFE7AA /* EricProgressHUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EricProgressHUD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07C0A2311DD4672A00EFE7AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07C0A2331DD4672A00EFE7AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		07C0A2341DD4672A00EFE7AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		07C0A2361DD4672A00EFE7AA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		07C0A2371DD4672A00EFE7AA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		07C0A23A1DD4672A00EFE7AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07C0A23C1DD4672A00EFE7AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07C0A23F1DD4672A00EFE7AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07C0A2411DD4672A00EFE7AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07C0A2461DD4672A00EFE7AA /* EricProgressHUDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EricProgressHUDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07C0A24A1DD4672A00EFE7AA /* EricProgressHUDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EricProgressHUDTests.m; sourceTree = "<group>"; };
+		07C0A24C1DD4672A00EFE7AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07C0A2511DD4672A00EFE7AA /* EricProgressHUDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EricProgressHUDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07C0A2551DD4672A00EFE7AA /* EricProgressHUDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EricProgressHUDUITests.m; sourceTree = "<group>"; };
+		07C0A2571DD4672A00EFE7AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07C0A22A1DD4672A00EFE7AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07C0A2431DD4672A00EFE7AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07C0A24E1DD4672A00EFE7AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07C0A2241DD4672A00EFE7AA = {
+			isa = PBXGroup;
+			children = (
+				07C0A22F1DD4672A00EFE7AA /* EricProgressHUD */,
+				07C0A2491DD4672A00EFE7AA /* EricProgressHUDTests */,
+				07C0A2541DD4672A00EFE7AA /* EricProgressHUDUITests */,
+				07C0A22E1DD4672A00EFE7AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07C0A22E1DD4672A00EFE7AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07C0A22D1DD4672A00EFE7AA /* EricProgressHUD.app */,
+				07C0A2461DD4672A00EFE7AA /* EricProgressHUDTests.xctest */,
+				07C0A2511DD4672A00EFE7AA /* EricProgressHUDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07C0A22F1DD4672A00EFE7AA /* EricProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				07C0A2331DD4672A00EFE7AA /* AppDelegate.h */,
+				07C0A2341DD4672A00EFE7AA /* AppDelegate.m */,
+				07C0A2361DD4672A00EFE7AA /* ViewController.h */,
+				07C0A2371DD4672A00EFE7AA /* ViewController.m */,
+				07C0A2391DD4672A00EFE7AA /* Main.storyboard */,
+				07C0A23C1DD4672A00EFE7AA /* Assets.xcassets */,
+				07C0A23E1DD4672A00EFE7AA /* LaunchScreen.storyboard */,
+				07C0A2411DD4672A00EFE7AA /* Info.plist */,
+				07C0A2301DD4672A00EFE7AA /* Supporting Files */,
+			);
+			path = EricProgressHUD;
+			sourceTree = "<group>";
+		};
+		07C0A2301DD4672A00EFE7AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07C0A2311DD4672A00EFE7AA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07C0A2491DD4672A00EFE7AA /* EricProgressHUDTests */ = {
+			isa = PBXGroup;
+			children = (
+				07C0A24A1DD4672A00EFE7AA /* EricProgressHUDTests.m */,
+				07C0A24C1DD4672A00EFE7AA /* Info.plist */,
+			);
+			path = EricProgressHUDTests;
+			sourceTree = "<group>";
+		};
+		07C0A2541DD4672A00EFE7AA /* EricProgressHUDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				07C0A2551DD4672A00EFE7AA /* EricProgressHUDUITests.m */,
+				07C0A2571DD4672A00EFE7AA /* Info.plist */,
+			);
+			path = EricProgressHUDUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07C0A22C1DD4672A00EFE7AA /* EricProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07C0A25A1DD4672A00EFE7AA /* Build configuration list for PBXNativeTarget "EricProgressHUD" */;
+			buildPhases = (
+				07C0A2291DD4672A00EFE7AA /* Sources */,
+				07C0A22A1DD4672A00EFE7AA /* Frameworks */,
+				07C0A22B1DD4672A00EFE7AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EricProgressHUD;
+			productName = EricProgressHUD;
+			productReference = 07C0A22D1DD4672A00EFE7AA /* EricProgressHUD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07C0A2451DD4672A00EFE7AA /* EricProgressHUDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07C0A25D1DD4672A00EFE7AA /* Build configuration list for PBXNativeTarget "EricProgressHUDTests" */;
+			buildPhases = (
+				07C0A2421DD4672A00EFE7AA /* Sources */,
+				07C0A2431DD4672A00EFE7AA /* Frameworks */,
+				07C0A2441DD4672A00EFE7AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07C0A2481DD4672A00EFE7AA /* PBXTargetDependency */,
+			);
+			name = EricProgressHUDTests;
+			productName = EricProgressHUDTests;
+			productReference = 07C0A2461DD4672A00EFE7AA /* EricProgressHUDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		07C0A2501DD4672A00EFE7AA /* EricProgressHUDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07C0A2601DD4672A00EFE7AA /* Build configuration list for PBXNativeTarget "EricProgressHUDUITests" */;
+			buildPhases = (
+				07C0A24D1DD4672A00EFE7AA /* Sources */,
+				07C0A24E1DD4672A00EFE7AA /* Frameworks */,
+				07C0A24F1DD4672A00EFE7AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07C0A2531DD4672A00EFE7AA /* PBXTargetDependency */,
+			);
+			name = EricProgressHUDUITests;
+			productName = EricProgressHUDUITests;
+			productReference = 07C0A2511DD4672A00EFE7AA /* EricProgressHUDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07C0A2251DD4672A00EFE7AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = eric;
+				TargetAttributes = {
+					07C0A22C1DD4672A00EFE7AA = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					07C0A2451DD4672A00EFE7AA = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 07C0A22C1DD4672A00EFE7AA;
+					};
+					07C0A2501DD4672A00EFE7AA = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 07C0A22C1DD4672A00EFE7AA;
+					};
+				};
+			};
+			buildConfigurationList = 07C0A2281DD4672A00EFE7AA /* Build configuration list for PBXProject "EricProgressHUD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07C0A2241DD4672A00EFE7AA;
+			productRefGroup = 07C0A22E1DD4672A00EFE7AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07C0A22C1DD4672A00EFE7AA /* EricProgressHUD */,
+				07C0A2451DD4672A00EFE7AA /* EricProgressHUDTests */,
+				07C0A2501DD4672A00EFE7AA /* EricProgressHUDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07C0A22B1DD4672A00EFE7AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07C0A2401DD4672A00EFE7AA /* LaunchScreen.storyboard in Resources */,
+				07C0A23D1DD4672A00EFE7AA /* Assets.xcassets in Resources */,
+				07C0A23B1DD4672A00EFE7AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07C0A2441DD4672A00EFE7AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07C0A24F1DD4672A00EFE7AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07C0A2291DD4672A00EFE7AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07C0A2381DD4672A00EFE7AA /* ViewController.m in Sources */,
+				07C0A2351DD4672A00EFE7AA /* AppDelegate.m in Sources */,
+				07C0A2321DD4672A00EFE7AA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07C0A2421DD4672A00EFE7AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07C0A24B1DD4672A00EFE7AA /* EricProgressHUDTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07C0A24D1DD4672A00EFE7AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07C0A2561DD4672A00EFE7AA /* EricProgressHUDUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07C0A2481DD4672A00EFE7AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07C0A22C1DD4672A00EFE7AA /* EricProgressHUD */;
+			targetProxy = 07C0A2471DD4672A00EFE7AA /* PBXContainerItemProxy */;
+		};
+		07C0A2531DD4672A00EFE7AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07C0A22C1DD4672A00EFE7AA /* EricProgressHUD */;
+			targetProxy = 07C0A2521DD4672A00EFE7AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07C0A2391DD4672A00EFE7AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07C0A23A1DD4672A00EFE7AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07C0A23E1DD4672A00EFE7AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07C0A23F1DD4672A00EFE7AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07C0A2581DD4672A00EFE7AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		07C0A2591DD4672A00EFE7AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07C0A25B1DD4672A00EFE7AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EricProgressHUD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ingpal.EricProgressHUD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		07C0A25C1DD4672A00EFE7AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EricProgressHUD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ingpal.EricProgressHUD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		07C0A25E1DD4672A00EFE7AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EricProgressHUDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ingpal.EricProgressHUDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EricProgressHUD.app/EricProgressHUD";
+			};
+			name = Debug;
+		};
+		07C0A25F1DD4672A00EFE7AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EricProgressHUDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ingpal.EricProgressHUDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EricProgressHUD.app/EricProgressHUD";
+			};
+			name = Release;
+		};
+		07C0A2611DD4672A00EFE7AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EricProgressHUDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ingpal.EricProgressHUDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EricProgressHUD;
+			};
+			name = Debug;
+		};
+		07C0A2621DD4672A00EFE7AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EricProgressHUDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ingpal.EricProgressHUDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EricProgressHUD;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07C0A2281DD4672A00EFE7AA /* Build configuration list for PBXProject "EricProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07C0A2581DD4672A00EFE7AA /* Debug */,
+				07C0A2591DD4672A00EFE7AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07C0A25A1DD4672A00EFE7AA /* Build configuration list for PBXNativeTarget "EricProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07C0A25B1DD4672A00EFE7AA /* Debug */,
+				07C0A25C1DD4672A00EFE7AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		07C0A25D1DD4672A00EFE7AA /* Build configuration list for PBXNativeTarget "EricProgressHUDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07C0A25E1DD4672A00EFE7AA /* Debug */,
+				07C0A25F1DD4672A00EFE7AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		07C0A2601DD4672A00EFE7AA /* Build configuration list for PBXNativeTarget "EricProgressHUDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07C0A2611DD4672A00EFE7AA /* Debug */,
+				07C0A2621DD4672A00EFE7AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07C0A2251DD4672A00EFE7AA /* Project object */;
+}

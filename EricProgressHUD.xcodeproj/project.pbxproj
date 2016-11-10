@@ -8,13 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		07C0A2321DD4672A00EFE7AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C0A2311DD4672A00EFE7AA /* main.m */; };
-		07C0A2351DD4672A00EFE7AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C0A2341DD4672A00EFE7AA /* AppDelegate.m */; };
-		07C0A2381DD4672A00EFE7AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C0A2371DD4672A00EFE7AA /* ViewController.m */; };
-		07C0A23B1DD4672A00EFE7AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07C0A2391DD4672A00EFE7AA /* Main.storyboard */; };
 		07C0A23D1DD4672A00EFE7AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07C0A23C1DD4672A00EFE7AA /* Assets.xcassets */; };
-		07C0A2401DD4672A00EFE7AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07C0A23E1DD4672A00EFE7AA /* LaunchScreen.storyboard */; };
 		07C0A24B1DD4672A00EFE7AA /* EricProgressHUDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C0A24A1DD4672A00EFE7AA /* EricProgressHUDTests.m */; };
 		07C0A2561DD4672A00EFE7AA /* EricProgressHUDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C0A2551DD4672A00EFE7AA /* EricProgressHUDUITests.m */; };
+		07C0A2691DD4678100EFE7AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C0A2641DD4678100EFE7AA /* AppDelegate.m */; };
+		07C0A26A1DD4678100EFE7AA /* EricProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C0A2661DD4678100EFE7AA /* EricProgressView.m */; };
+		07C0A26B1DD4678100EFE7AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C0A2681DD4678100EFE7AA /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,13 +36,7 @@
 /* Begin PBXFileReference section */
 		07C0A22D1DD4672A00EFE7AA /* EricProgressHUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EricProgressHUD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07C0A2311DD4672A00EFE7AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		07C0A2331DD4672A00EFE7AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		07C0A2341DD4672A00EFE7AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		07C0A2361DD4672A00EFE7AA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		07C0A2371DD4672A00EFE7AA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		07C0A23A1DD4672A00EFE7AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		07C0A23C1DD4672A00EFE7AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		07C0A23F1DD4672A00EFE7AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07C0A2411DD4672A00EFE7AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07C0A2461DD4672A00EFE7AA /* EricProgressHUDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EricProgressHUDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07C0A24A1DD4672A00EFE7AA /* EricProgressHUDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EricProgressHUDTests.m; sourceTree = "<group>"; };
@@ -51,6 +44,12 @@
 		07C0A2511DD4672A00EFE7AA /* EricProgressHUDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EricProgressHUDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07C0A2551DD4672A00EFE7AA /* EricProgressHUDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EricProgressHUDUITests.m; sourceTree = "<group>"; };
 		07C0A2571DD4672A00EFE7AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07C0A2631DD4678000EFE7AA /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		07C0A2641DD4678100EFE7AA /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		07C0A2651DD4678100EFE7AA /* EricProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EricProgressView.h; sourceTree = "<group>"; };
+		07C0A2661DD4678100EFE7AA /* EricProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EricProgressView.m; sourceTree = "<group>"; };
+		07C0A2671DD4678100EFE7AA /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		07C0A2681DD4678100EFE7AA /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,13 +100,13 @@
 		07C0A22F1DD4672A00EFE7AA /* EricProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
-				07C0A2331DD4672A00EFE7AA /* AppDelegate.h */,
-				07C0A2341DD4672A00EFE7AA /* AppDelegate.m */,
-				07C0A2361DD4672A00EFE7AA /* ViewController.h */,
-				07C0A2371DD4672A00EFE7AA /* ViewController.m */,
-				07C0A2391DD4672A00EFE7AA /* Main.storyboard */,
+				07C0A2631DD4678000EFE7AA /* AppDelegate.h */,
+				07C0A2641DD4678100EFE7AA /* AppDelegate.m */,
+				07C0A2651DD4678100EFE7AA /* EricProgressView.h */,
+				07C0A2661DD4678100EFE7AA /* EricProgressView.m */,
+				07C0A2671DD4678100EFE7AA /* ViewController.h */,
+				07C0A2681DD4678100EFE7AA /* ViewController.m */,
 				07C0A23C1DD4672A00EFE7AA /* Assets.xcassets */,
-				07C0A23E1DD4672A00EFE7AA /* LaunchScreen.storyboard */,
 				07C0A2411DD4672A00EFE7AA /* Info.plist */,
 				07C0A2301DD4672A00EFE7AA /* Supporting Files */,
 			);
@@ -246,9 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07C0A2401DD4672A00EFE7AA /* LaunchScreen.storyboard in Resources */,
 				07C0A23D1DD4672A00EFE7AA /* Assets.xcassets in Resources */,
-				07C0A23B1DD4672A00EFE7AA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +270,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07C0A2381DD4672A00EFE7AA /* ViewController.m in Sources */,
-				07C0A2351DD4672A00EFE7AA /* AppDelegate.m in Sources */,
+				07C0A2691DD4678100EFE7AA /* AppDelegate.m in Sources */,
 				07C0A2321DD4672A00EFE7AA /* main.m in Sources */,
+				07C0A26B1DD4678100EFE7AA /* ViewController.m in Sources */,
+				07C0A26A1DD4678100EFE7AA /* EricProgressView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,25 +307,6 @@
 			targetProxy = 07C0A2521DD4672A00EFE7AA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		07C0A2391DD4672A00EFE7AA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				07C0A23A1DD4672A00EFE7AA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		07C0A23E1DD4672A00EFE7AA /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				07C0A23F1DD4672A00EFE7AA /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		07C0A2581DD4672A00EFE7AA /* Debug */ = {
@@ -370,7 +349,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -411,7 +390,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -423,6 +402,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = EricProgressHUD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ingpal.EricProgressHUD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -434,6 +414,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = EricProgressHUD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ingpal.EricProgressHUD;
 				PRODUCT_NAME = "$(TARGET_NAME)";

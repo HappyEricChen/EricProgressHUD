@@ -1,12 +1,13 @@
 //
 //  AppDelegate.m
-//  EricProgressHUD
+//  WechatDemo
 //
-//  Created by eric on 16/11/10.
+//  Created by eric on 16/10/31.
 //  Copyright © 2016年 eric. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = [[ViewController alloc]init];
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

@@ -1,8 +1,8 @@
 //
 //  ViewController.h
-//  EricProgressHUD
+//  WechatDemo
 //
-//  Created by eric on 16/11/10.
+//  Created by eric on 16/10/31.
 //  Copyright © 2016年 eric. All rights reserved.
 //
 

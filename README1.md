@@ -1,0 +1,2 @@
+# EricProgressHUD
+一个简单的动画旋转加载效果，封装了一个show和一个hidden方法可以自定义图片和样式
